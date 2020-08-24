@@ -1,27 +1,24 @@
 # Githubs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+O Projeto foi feito com Angular na versão 10.
 
-## Development server
+## Criar o Projeto
+Para criar o 'projeto' precisa dá o comando ng new nomeDoProjeto no terminal do seu computador.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Inicializar o Projeto
 
-## Code scaffolding
+Utiliza o comando ng server ou npm start para inicializar o projeto.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Dependências 
+Essas são as dependências:
+- moment;
+- @angular/material;
+- @angular/flex-layout;
+- @angular/cdk;
 
-## Build
+## Sobre
+O projeto lista os repositórios de um proprietário de uma conta do Github. Através da pesquisa com o nome do proprietário dessa conta.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Numa tabela de repositórios. Em cada repositório listado terá um botão chamado 'Detalhe'.
+Ao clicar nesse botão o usuário poderá ver detalhes do reposistório e também os commits realizado(s) através das sua(s) branch(es).
+Na tabela de branches terá o(s) botões de commit. Esse(s) botões de commit poderá ver quem criou essa Branches e também quem fez o commit.
