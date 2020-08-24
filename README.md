@@ -7,10 +7,10 @@ Para criar o 'projeto' precisa dá o comando ng new nomeDoProjeto no terminal do
 
 ## Inicializar o Projeto
 
-Utiliza o comando ng server ou npm start para inicializar o projeto.
+Usar o comando ng server ou npm start para inicializar o projeto.
 
 ## Dependências 
-Essas são as dependências:
+Essas são as dependências utilizadas:
 - moment;
 - @angular/material;
 - @angular/flex-layout;
